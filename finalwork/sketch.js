@@ -33,7 +33,7 @@ function draw(){
   ky += 4;
   if(ky > height){ ky = 0; }
   if(ky < 0){ ky = height; }
-  ellipse(400, my, 320, 70);
+  ellipse(width - 300, my, 320, 70);
   my += 4;
   if(my > height){ my = 0; }
   if(my < 0){ my = height; }
